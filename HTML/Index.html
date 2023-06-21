@@ -1,131 +1,168 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Entregable HTML, CSS y JS</title>
     <link rel="stylesheet" href="../CSS/Index.css" />
-    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet" />
-</head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <script src="../JS/Index.js"></script>
+  </head>
 
-<body>
+  <body>
     <!-- De aca para abajo esta el header-->
     <header>
-        <div id="Lista_header">
-            <ul>
-                <li><img src="../Assets/Logo pagina.png" id="Logo" /></li>
-                <li>Pricing</li>
-                <li>Resources Center</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-        <div id="logsign">
-            <div class="Log">Login</div>
-            <div class="Log">Sign Up</div>
-        </div>
+      <div id="Lista_header">
+        <ul>
+          <li><img src="../Assets/Logo pagina.png" id="Logo" /></li>
+          <li>Pricing</li>
+          <li>Resources Center</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div id="logsign">
+        <div class="Log">Login</div>
+        <div class="Log">Sign Up</div>
+      </div>
     </header>
     <section id="Cuerpo">
-        <!-- De aca para abajo esta la parte derecha del cuerpo-->
-        <div id="izquierdo">
-            <div class="Sec">
-                <h1>Talk to our product analytics expert</h1>
-                <p>
-                    Have questions about pricing, plans, or Growthly? Fill out the form
-                    and our product analytics expert will be in touch directly.
-                </p>
-            </div>
-            <div class="Sec">
-                <h2>Our office</h2>
-                <img src="../Assets/oficina-abierta-scaled.jpg" id="Oficina" />
-                <p>
-                    Have questions about pricing, plans, or Growthly? Fill out the form
-                    and our product analytics expert will be in touch directly.
-                </p>
-            </div>
-            <div class="Sec">
-                <div id="Inferior">
-                    <div class="Ubicacion">
-                        <h3>United Kingdom</h3>
-                        <div class="Ubi">
-                            <img src="../Assets/Pin de ubicacion.png" class="Pin_Ubi" />
-                            <p>30 Eastbourne Terrace Paddington, London W2 6LA UK</p>
-                        </div>
-                        <div class="Tel">
-                            <img src="../Assets/Telefono logo.jpg" class="Log_Tel" />
-                            <p>+44 13 5135 1051</p>
-                        </div>
-                    </div>
-                    <div class="Ubicacion">
-                        <h3>France</h3>
-                        <div class="Ubi">
-                            <img src="../Assets/Pin de ubicacion.png" class="Pin_Ubi" />
-                            <p>266 Place Ernest Granier 34000 Montpellier France</p>
-                        </div>
-                        <div class="Tel">
-                            <img src="../Assets/Telefono logo.jpg" class="Log_Tel" />
-                            <p>+33 5 12 18 21 86</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <!-- De aca para abajo esta la parte derecha del cuerpo-->
+      <div id="izquierdo">
+        <div class="Sec">
+          <h1>Talk to our product analytics expert</h1>
+          <p>
+            Have questions about pricing, plans, or Growthly? Fill out the form
+            and our product analytics expert will be in touch directly.
+          </p>
         </div>
-        <!-- De aca para abajo esta la parte derecha del cuerpó (formulario)-->
-        <div id="derecho">
-            <form id="Form" action="">
-                <div id="Complete_name">
-                    <div>
-                        <label for="Name">
-                            <h3>First Name</h3>
-                        </label>
-                        <input type="text" id="Name" placeholder="First name" />
-                    </div>
-                    <div>
-                        <label for="Last_name">
-                            <h3>Last Name</h3>
-                        </label>
-                        <input type="text" id="Last_name" placeholder="Last name" />
-                    </div>
-                </div>
-                <div class="Seccion_form">
-                    <label for="Email">
-                        <h3>Email Adress</h3>
-                    </label>
-                    <input type="text" id="Email" placeholder="Email adress" />
-                </div>
-                <div class="Seccion_form">
-                    <label for="Company">
-                        <h3>Company Name</h3>
-                    </label>
-                    <input type="text" id="Company" placeholder="Company name" />
-                </div>
-                <div class="Seccion_form">
-                    <label>
-                        <h3>Phone Number</h3>
-                    </label>
-                    <div id="Phone_number">
-                        <select id="Country">
-                            <option value="1">Uruguay</option>
-                            <option value="2">Brasil</option>
-                            <option value="3">Cuba</option>
-                            <option value="4">Canada</option>
-                            <option value="5">España</option>
-                        </select>
-                        <input type="text" id="Phone" placeholder="Phone number" />
-                    </div>
-                </div>
-                <div class="Seccion_form">
-                    <label for="Message">
-                        <h3>Message</h3>
-                    </label>
-                    <textarea type="text" id="Message" placeholder="Message"></textarea>
-                </div>
-                <button id="Send_button">Send</button>
-            </form>
+        <div class="Sec">
+          <h2>Our office</h2>
+          <img src="../Assets/oficina-abierta-scaled.jpg" id="Oficina" />
+          <p>
+            Have questions about pricing, plans, or Growthly? Fill out the form
+            and our product analytics expert will be in touch directly.
+          </p>
         </div>
+        <div class="Sec">
+          <div id="Inferior">
+            <div class="Ubicacion">
+              <h3>United Kingdom</h3>
+              <div class="Ubi">
+                <img src="../Assets/Pin de ubicacion.png" class="Pin_Ubi" />
+                <p>30 Eastbourne Terrace Paddington, London W2 6LA UK</p>
+              </div>
+              <div class="Tel">
+                <img src="../Assets/Telefono logo.jpg" class="Log_Tel" />
+                <p>+44 13 5135 1051</p>
+              </div>
+            </div>
+            <div class="Ubicacion">
+              <h3>France</h3>
+              <div class="Ubi">
+                <img src="../Assets/Pin de ubicacion.png" class="Pin_Ubi" />
+                <p>266 Place Ernest Granier 34000 Montpellier France</p>
+              </div>
+              <div class="Tel">
+                <img src="../Assets/Telefono logo.jpg" class="Log_Tel" />
+                <p>+33 5 12 18 21 86</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- De aca para abajo esta la parte derecha del cuerpó (formulario)-->
+      <div id="derecho">
+        <form id="form" onsubmit="validateform(event)">
+          <div class="complete_name">
+            <div>
+              <label for="name">
+                <h3>First Name</h3>
+              </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="First name"
+                required
+              />
+            </div>
+            <div>
+              <label for="last_name">
+                <h3>Last Name</h3>
+              </label>
+              <input
+                type="text"
+                name="last_name"
+                id="last_name"
+                placeholder="Last name"
+                required
+              />
+            </div>
+          </div>
+          <div class="seccion_form">
+            <label for="email">
+              <h3>Email Adress</h3>
+            </label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Email adress"
+              required
+            />
+          </div>
+          <div class="seccion_form">
+            <label for="company">
+              <h3>Company Name</h3>
+            </label>
+            <input
+              type="text"
+              name="company"
+              id="company"
+              placeholder="Company name"
+              required
+            />
+          </div>
+          <div class="seccion_form">
+            <label>
+              <h3>Phone Number</h3>
+            </label>
+            <div class="phone_number">
+              <select name="country" class="country" required>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Canada">Canada</option>
+                <option value="España">España</option>
+              </select>
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder="Phone number"
+                required
+              />
+            </div>
+          </div>
+          <div class="seccion_form">
+            <label for="message">
+              <h3>Message</h3>
+            </label>
+            <textarea
+              type="text"
+              name="message"
+              id="message"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <button class="send_button" type="submit">Send</button>
+        </form>
+      </div>
     </section>
-</body>
-
+  </body>
 </html>
