@@ -10,8 +10,8 @@
       href="https://fonts.googleapis.com/css?family=Inter"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
   </head>
-
   <body>
     <!-- De aca para abajo esta el header-->
     <header>
@@ -76,7 +76,7 @@
       </div>
       <!-- De aca para abajo esta la parte derecha del cuerpó (formulario)-->
       <div id="derecho">
-        <form id="form" onsubmit="validateform(event)">
+        <form id="form" onsubmit="validateformmodal(event)">
           <div class="complete_name">
             <div>
               <label for="name">
@@ -163,6 +163,8 @@
         </form>
       </div>
     </section>
+    <div id="modal" class="hidden"> </div>
+    <div class="hidden background"></div>
     <script src="../JS/Index.js"></script>
   </body>
 </html>

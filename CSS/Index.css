@@ -31,6 +31,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content:center;
 }
 
 /**/
@@ -227,3 +228,35 @@ form div {
 /* De aca para arriba esta el CSS de la parte derecha de la pagina, puede estar un poco desorganizado */
 /**/
 /**/
+#modal {
+    position: absolute;
+    width: 630px;
+    height: fit-content;
+    border: 2px solid rgba(182, 88, 255, 1);
+    background-color: rgb(240, 240, 240)  ;
+    z-index:2;
+}
+.modal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px;
+}
+.hidden {
+    display: none;
+}
+.closer {
+    position: absolute;
+    margin-left: 590px;
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+}
+.background {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter:blur(3px);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 110%;
+}
